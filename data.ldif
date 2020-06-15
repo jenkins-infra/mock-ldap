@@ -55,5 +55,6 @@ objectClass: inetOrgPerson
 cn: alice
 mail: bob@jenkins-ci.org
 givenName: Alice
+employeeNumber: alice
 sn: Ashley
 userPassword: {SSHA}yI6cZwQadOA1e+/f+T+H3eCQQhRzYWx0

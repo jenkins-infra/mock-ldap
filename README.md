@@ -11,7 +11,7 @@ Two users 'kohsuke' and 'alice' exist in this database. 'kohsuke' is an admin an
 
 ## Usage
 
-1. `make build`
+1. `make image`
 2. `make run`
 3. Open a second terminal, run `make setup-ldap` there
 

@@ -6,7 +6,7 @@ def imageName = 'jenkinsciinfra/mock-ldap'
 properties([[$class: 'BuildDiscarderProperty',
                 strategy: [$class: 'LogRotator', numToKeepStr: '10']]])
 
-node('docker') {
+node('docker&&linux') {
     checkout scm
 
     /* Using this hack right now to grab the appropriate abbreviated SHA1 of
